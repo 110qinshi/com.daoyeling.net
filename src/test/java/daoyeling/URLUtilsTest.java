@@ -11,7 +11,7 @@ public class URLUtilsTest {
 
     @Test
     public void inputReadTest() {
-        String url = "http://open.varicom.im";
+        String url = "http://www.zhihu.com";
         InputStreamReader reader = URLUtils.getInputStreamReader(url);
         int c;
         try {
